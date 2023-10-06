@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "865583989921",
+    "project_id": "committee-a16a2",
+    "storage_bucket": "committee-a16a2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:865583989921:android:2c947c29903f3b5cd35ce0",
+        "android_client_info": {
+          "package_name": "com.example.committee"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJdHpCtI07v_aMcLxWQbjSg3hf-hxdPvE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
