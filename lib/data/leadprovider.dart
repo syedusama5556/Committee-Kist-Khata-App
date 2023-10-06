@@ -11,11 +11,13 @@ class LeadProvider extends GetxController {
   final FirebaseAuth firebaseAuth=FirebaseAuth.instance;
   final FirebaseFirestore firebaseFirestore=FirebaseFirestore.instance;
 
-  void uploadProfileMetadata(profileData,userId) async {
+  void uploadCommitteeMetadata(committeeData) async {
     firebaseFirestore
         .collection('Committees')
-        .doc(userId)
-        .set(profileData);
+        .add(committeeData);
   }
+  
+
+
 
 }
