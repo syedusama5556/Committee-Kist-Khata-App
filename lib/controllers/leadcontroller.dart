@@ -8,7 +8,9 @@ class LeadController extends GetxController{
   // var selectedOption="".obs;
   TextEditingController nameController=TextEditingController();
   TextEditingController amountController=TextEditingController();
-  // TextEditingController numberController=TextEditingController();
-  // TextEditingController nameController=TextEditingController();
+  TextEditingController descriptionController=TextEditingController();
+  TextEditingController countryController=TextEditingController();
+  TextEditingController cityController=TextEditingController();
+  TextEditingController zipController=TextEditingController();
 
 }

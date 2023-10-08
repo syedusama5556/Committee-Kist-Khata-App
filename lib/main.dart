@@ -1,8 +1,9 @@
+import 'package:committee/screens/otp%20screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:get/get.dart';
-import 'package:committee/screens/homescreen.dart';
+import 'package:committee/screens/loginscreen.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
 Future<void> main() async {
@@ -26,7 +27,7 @@ class CommitteeApp extends StatelessWidget {
     return GetMaterialApp(
       themeMode: ThemeMode.system,
       debugShowCheckedModeBanner: false,
-      home: HomeScreen(),
+      home: LoginScreen(),
       builder: EasyLoading.init(),
     );
   }
